@@ -5,10 +5,10 @@
 
 local Transpiler = {}
 
-function Transpiler.TranspileQuickScript(QSCode)
+function Transpiler.transpileQS(QSCode)
 	local luau = ""
 	
-	local lineDictionary = string.split(QSCode, ";")
+	local lineDictionary = string.split(QSCode, ";") -- Unsure how string.split splits strings (if it includes the ; or makes it its own dictionary entry)
 	
 	
 	
