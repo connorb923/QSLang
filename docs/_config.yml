@@ -1,1 +1,4 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+title: QSTranspiler
+description: QS is a programming language meant for video games which want an element of programming in the game. The QSTranspiler converts QS to luau to be ran by the ROBLOX™ engine.
+google_analytics:
+remote_theme: lewismiddleton/cayman-dark
